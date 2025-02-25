@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(midias/fontes/idroid.otf) format(OpenType);
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url(midias/fontes/BebasNeue\ Regular.otf) format(OpenType);
+}
+
+body{
+    background-color: #84e1ad;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin:  auto;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(180deg, #3fbe79, #174f31);
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3);
+}
+main{
+    width: 840px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    box-shadow: /*A box-shadow permite aplicar várias sombras ao mesmo tempo, separando cada valor com uma vírgula*/
+    -4px 0px 5px rgba(0, 0, 0, 0.2), /* Sombra à esquerda */
+    4px 0px 5px rgba(0, 0, 0, 0.2),
+    0 4px 5px rgba(0, 0, 0, 0.2);  /* Sombra à direita */
+}
+footer{
+    background-color: #174f31;
+    margin-top: 20px;
+    padding: 3px;
+}
+footer > p{
+    margin: 0;
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+footer em{
+    color: #ffffff;
+    font-weight: bold;
+    font-style: normal;
+}
+.imagem-centralizada{
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+.video-centralizado{
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+.video-section{
+    background-color: #1a5c38;
+    width: calc(100% + 40px); /* Ocupa toda a largura disponível dentro do padding */
+    height: 480px;
+    margin-left: -20px;
+}
+em{
+    color: #30a765;
+    font-weight: bold;
+    font-style: normal;
+}
+a{
+    color: #30a765;
+    text-decoration: none;
+    font-weight: bold;
+}
+a::after{
+    content: '🔗';
+}
+a:hover{
+    text-decoration: underline;
+}
+nav > a{
+    color: rgb(255, 255, 255);
+    font: Normal Bold 0.9em Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    margin: 0 30px 0px 10px;
+    background-color: #257e4d;
+    padding: 3px;
+    border-radius: 5px;
+}
+nav > a:hover{
+    background-color: #30a765;
+    text-decoration: none;
+}
+nav > a::after{
+    content: none;
+}
+p{
+    text-indent: 60px; /* Define a identação de 30 pixels */
+}
+#maintitle{
+    text-align: center;
+    font: normal normal 4em Bebas, Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+header > h2{
+    font: normal lighter 1em Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+main h1{ 
+    font: normal normal 2em idroid, Arial, Helvetica, sans-serif;
+    color: #1b7e47;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+}/* 'main h1, main h2{}' aplica o estilo a todos os <h1> e <h2> dentro de um elemento <main>, independentemente de serem filhos diretos ou estarem em qualquer nível dentro do <main>*/
+main h2{
+    font: normal normal 1.5em idroid, Arial, Helvetica, sans-serif;
+    color: #1b7e47;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+    padding: 3px;
+    background-image: linear-gradient(90deg, #c6ebd6, #ffffff);
+}
+#extra-article{
+    background-color: #c5ebd6;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#extra-article > p{
+    padding: 10px;
+    margin: 0;
+}
+#extra-article > h2{
+    all: initial;
+    display: block;
+    font: normal bold 1.5em Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    background-color: #30a765;
+}
+.marcador-customizado{
+    display: inline-block;
+    margin-right: 130px;
+}
+.marcador-customizado li::marker {
+    content: "✔"; /* Usa um caractere especial como marcador */
+    font-weight: bold;
+}
+abbr{
+    text-decoration: none;
+}

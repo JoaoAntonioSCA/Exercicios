@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texte bacana</title>
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 14px;
+        }
+        h1{
+            background-color: #5A3FFA;
+
+            height: 40px;
+            width: 919px;
+
+            border: 10px solid #983EFA;
+
+            padding: 10px;
+            
+            margin: 20px auto 20px auto;
+            
+            outline: 5px dashed #ff0000;
+        }
+        h1:hover{
+            background-color: #b3a516;
+            height: 40px;
+            width: 919px;
+            color: white;
+            border: 10px solid #DDFA1E;
+            padding: 10px;
+            margin: 20px auto 20px auto;
+            outline: 5px dashed #00FA87;
+        }
+        h1::selection{
+            color: yellow;
+        }
+        h1:hover::selection{
+            color: blue;
+        }
+        h1#bomboclat{
+            margin: 1000px auto 20px auto;
+            text-align: center;
+        }
+        h1#bomboclat:hover > div#msg{
+            display: none;
+        }
+        h1#bomboclat > div#scrmsg{
+            display: none;
+        }
+        h1#bomboclat:hover > div#scrmsg{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, iste!</h1>
+    <h1 id="bomboclat"><div id="msg">???</div><div id="scrmsg">BOMBOCLAT!</div></h1>
+</body>
+</html>

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* 
+    HTML é id = CSS é #
+    HTML é class = CSS é .
+*/
+/* <span></span>, tag que agrupa elementos afim de estilo, semelhante a uma div. mas div são elementos em blocos, enquanto span são em linhas */
+abbr{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.103);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(107, 16, 192);
+}
+h2{
+    color: rgb(114, 96, 131);
+}
+hr{
+    color: rgb(107, 16, 192);
+    font-weight: normal;
+    font-style: normal;
+}
+h1#titulo-principal0{
+    text-align: center;
+    background-color: rgb(107, 16, 192);;
+    color: white;
+}
+h2.index{
+    text-align: center;
+    color: rgb(114, 96, 131);
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: underline;
+}
+ul.right-aligned-list{
+    text-align: center;
+    list-style-position: inside;
+    margin-right: 30px;
+    font-style: italic;
+}
+#start-button{
+    text-decoration: underline;
+}
+.text{
+    text-align: justify;
+}
+.title2{
+    text-align: center;
+    
+}

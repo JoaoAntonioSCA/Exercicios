@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Alguns tipos de formatações:
+    </h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos <b>um termo em negrito</b> usando a tag "b". Porém essa tag é não semântica.</p>
+    <p>Nesta frase temos <strong>um termo em destaque</strong> feito usando a tag "strong". Que é semântica.</p>
+    <p>Não há diferença visual entre as duas, pois as duas entregam <strong>forma</strong>, mas apenas a tag "strong" entrga <strong>sentido</strong> ao código</p>
+
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase há <i>um termo em itálcio</i>, feito usando a tag "i". não semântica</p>
+    <p>Nesta frase há <em>outro termo em itálico</em>, feito usando a tag "em". Semântica</p>
+    <p>Não há diferença visual entre as duas, pois as duas entregam <strong>forma</strong>, mas apenas a tag "em" entrga <strong>sentido</strong> ao código. <br>
+    As tags "strong" e "em" são novas do HTML5, já as "b" e "i" são do HTML4, ou seja, em um futuro elas tendem a ser consideradas obsoletas.</p> <br>
+    <h2>Texto Marcado</h2>
+
+    <p>É possível também criar <mark>textos marcados</mark> usando a tag "mark"</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>É possível criar <big>trechos grandes</big>, com a tag "big". E <small>trechos pequenos</small>, com a tag "small". <br> Mas "big" é considerado uma tag obsoleta, e "small" não, por que? <br>
+    Talves porque, ao definir um trecho com a tag "big", você não está dando significado à tag, apenas forma, fazendo ela ficar maior. Já o "small", além de alterar a forma do texto, da um sentido ao trecho pois, por exemplo, em contratos existem as letras pequenas que ficam em baixo dele, que servem para algo, então existe um sentido. <br> "big" ainda funciona, mas é considerado obsoleto, se você quer alterar o tamanho do texto, é com as CSS.</p>
+
+    <h2>Texto deletado</h2>
+    <p>É possível marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas desconsiderado.</p>
+
+    <h2>Texto inserido</h2>
+    <p>É possível marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. <br>
+    Existia a tag "u" no HTML4, que fazia a mesma forma, mas não dava significado, ou seja, não semântica. <u>texto como inserido</u></p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>2</sup>+3. Com a tag "sup"</p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O. Com a tag "sub"</p>
+</body>
+</html>

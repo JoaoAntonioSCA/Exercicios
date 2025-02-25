@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Abra esse site em vários dispositivos diferentes os simplesmente aumente e diminua a janela do seu navegador.</p>  
+    <picture>
+        <source media="(max-width: 130px)" srcset="imagens/foto-pp.png" type="image/png"> <!--80px + 50px(afrouxamento) = 130px-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <source media="(max-width: 2559px)" srcset="imagens/foto-g.png" type="image/png">
+        <img src="imagens/foto-gg.png" alt="Foto original flexível">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Exemplo áudio em HTML5</p>
+
+    <audio preload="auto" autoplay controls loop>
+        <source src="midias/aether-ytmsc-btr.mp3" type="audio/mpeg">
+    </audio>                                                        <!--formatos de áudio mais comuns em questões de compatibilidade: MP3, WAV, OGG-->
+    <p>Caso o áudio não tenha sido reproduzido, seu navegador não é compativel com o áudio. <a target="_blank" rel="download" download="midias/aether-ytmsc-btr.mp3" href="midias/aether-ytmsc-btr.mp3">Clique aqui para baixar o aqrquivo MP3</a></p>
+</body>
+</html>

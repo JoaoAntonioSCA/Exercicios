@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais formatações</title>
+    <style>
+        body {
+            background-color: rgb(27, 27, 27);
+            color:darkgreen;
+            font-family: Montserrat, Open Sans;   /*eu do futuro, porque não funciona??? */
+        }
+        mark {
+            background-color: #569761;
+        }
+    </style>
+</head>
+<body>
+    <p><small>hacker hehehe&#x1F60E</small></p>
+    <h1>Mais tipos de formatações</h1>
+    <h2><ins>Código-fonte</ins></h2>
+    <p>
+        "O comando document.getElementById('teste') é escrito em linguagem JavaScript." A fonte utilizada para escrever o código, não é <mark>monoespaçada</mark>, ou seja, não reserva o mesmo <em>espaço lateral</em> para cada letra. Para arrumar isso, é possível utilizar a tag "code" e deixar a fonte monoespaçada <br>(fontes monoespaçadas são ótimas para ler códigos, de maneira visual).
+    </p>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Certo!</p>
+    <hr>
+    <p>
+        <code>
+            num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+        <br> <br> Agora, mesmo que a fonte esteja monoespaçada, os comandos ficam um do lado do outro, diferente de como foi escrito no código HTML. Os comandos estão desorganizados, sem <mark>indentação</mark>. Para arrumar isso, é possível envelopar toda a tag "code" na tag "pre" <br>
+        <pre>
+            <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+        print(f'O número {num} é PAR')
+            else:
+        print(f'O número {num} é ÍMPAR')
+            print('Fim do programa')
+            </code>
+        </pre> <br><br>
+        Ao colocar a tag "pre", tudo é considerado, inclusive os espaços, quebras de linha, tabulações, etc. Por exemplo, dentro da tag "pre", a tag "br" não é necessária <br>
+        Dica: TAB+Shift você retira os espaços e tabulações, e com TAB recoloca denovo. Possível utilizar no código acima 
+    </p> <br>
+    <h2>Citações</h2>
+    <p>
+        <q>I guess... I'm afraid</q> - Arthur Morgan 1899
+    </p>
+    <h2>Citações completas</h2>
+    <p>Segundo os japoneses, em algum lugar do japão:
+        <blockquote cite="https://www.youtube.com/watch?v=39UDZMgPg5k">
+            顧客が顧客であれば、顧客は望む結果を達成することができます。告発者たち、彼らは拒絶されるべきではないし、心の喜びを選ぶべきでもない、私は彼らを受け入れるためのまさに開口部を開くだろう。彼らはお世辞を選ぶという選択肢をすべて残しています。
+        </blockquote>
+    </p> 
+    <h2>Abreviações</h2>
+    <p>
+        Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. legal!
+    </p>
+    <h2>Texto invertido :P</h2>
+    <p>
+        <bdo dir="rtl">Gosto muito de comer arroz nos domingos e fins de semana ao meio dia e quarenta.</bdo>
+    </p>
+</html>

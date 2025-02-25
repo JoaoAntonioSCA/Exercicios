@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras nas caixas</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 8px;
+            border-radius: 100px 0px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 8px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+            font-style: italic;
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: inset 5px 6px 18px 5px rgba(0, 0, 0, 0.5); /* Tipo(Outset/Inset), Deslocamento horizontal(X offset), Deslocamento vertical (Y offset), espalhamento (Blur), alcance(spread), cor da sombra e transparência*/
+            border-radius: 5px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        h1, h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            margin-bottom: 5px;
+            border-radius: 3px;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 50px auto;
+            text-align: center;
+            font-style: italic;
+            border-radius: 50%;
+            box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site Bomboclat</h1>
+        <h2>Bem legal!</h2>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Olha essas poha</h1>
+        <article>
+            <h2>Notícias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint, quibusdam sed, minima quod nobis id eos praesentium inventore laboriosam excepturi, architecto veniam eaque? Hic itaque provident quae delectus laboriosam?</p>
+        </article>
+        <article>
+            <h2>Jornais</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum blanditiis fugiat possimus voluptatem tenetur itaque ullam, facere reiciendis adipisci sit officia nisi corporis quisquam quas assumenda incidunt accusantium similique sed.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam qui quam labore eos veritatis, corrupti velit iure numquam voluptate fugit consequuntur sit soluta, veniam dolorum nulla distinctio dolor cupiditate aliquam.</p>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por pato web e tals</p>
+        <p>Vlw guanabara!</p>
+    </footer>
+    <div>Arroz</div>
+</body>
+</html>

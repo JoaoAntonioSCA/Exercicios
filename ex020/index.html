@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+        */
+        div.ex01{
+            background-color: lightgray;
+            display: inline-block;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div.ex01:hover{
+            background-color: blueviolet;
+        }
+        div.ex01:active{
+            background-color: rgb(46, 14, 77);
+            color: white;
+        }
+        div#ex02{
+            width: 130px; 
+        }
+        div#ex02:hover{
+            color: red;
+        }
+        div#ex03 > p {
+            display: none;
+        }
+        div#ex03:hover > p {
+            display: block;
+            color: white;
+            background-color: blueviolet;
+            width: 290px;
+        }
+        input:disabled {
+        border-color: green;
+        }
+        /* unvisited link */
+        a:link {
+        color: #ff0000;
+        text-decoration: none;
+        }
+
+        /* visited link */
+        a:visited {
+        color: #00ff00;    
+        text-decoration: line-through;
+        }
+
+        /* mouse over link */
+        a:hover {
+        color: #0000ff;
+        text-decoration: underline;
+        }
+
+        /* selected link */
+        a:active {
+        color: #0f0f0f;
+        text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="ex01">01</div>
+    <div class="ex01">02</div>
+    <div class="ex01">03</div> <br>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto</p>
+    <div id="ex02">passe o mouse aqui</div>
+    <h1>Exemplo 2 de hover</h1>
+    <p>passe o mouse sobre o texto</p>
+    <div id="ex03">
+        passe o mouse aqui
+        <p>TEXTO ESCONDIDO... BOMBOCLAT!!!</p>
+    </div> 
+    <p>Fim do exemplo</p>
+    <input type="text"> <br>
+    <a target="_blank" rel="external" href="https://mail.google.com/mail/?tab=rm&authuser=0&ogbl">???</a>
+    <!--href = hypertext reference-->
+    <!--div*3>{0$}-->
+    <!--ul>li*3>a -->
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Rosarivo:ital@0;1&display=swap');
+
+body{
+    font: normal normal 1em "PT Sans", sans-serif;
+    text-align: justify;
+}
+h1{
+    font: italic bold 3em "Bona Nova SC", serif;
+    text-align: center;
+}
+h2{
+    font: italic bold 2em "Bona Nova SC", serif;
+    text-align: center;
+}
+h3{
+    font: normal normal 1.7em "Noto Serif JP", serif;
+}
+strong{
+    font: normal bold 1em "PT Sans", sans-serif;
+}
+em{
+    font: italic normal 1em "PT Sans", sans-serif;
+}
+small{
+    font: italic normal 0.8em "PT Sans", sans-serif;
+}

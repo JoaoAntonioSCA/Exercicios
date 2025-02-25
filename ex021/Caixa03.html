@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        h1{
+            border: 20px solid transparent; /* Cria o espaço da borda */
+            padding: 10px;
+            border-image-source: url(Borda.png);
+            border-image-slice: 39;
+            border-image-repeat: stretch;
+        }
+        h2{
+            border: 20px solid transparent;
+            padding: 10px;
+            border-image-source: url(GorillazCDcover.webp);
+            border-image-slice: 28 fill;
+            border-image-repeat: round;
+        }
+        #borderimage{
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(border.png) 30 round;
+        }
+        #borderimage2{
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(border.png) 30 stretch;
+        }
+        p.dotted {border-style: dotted;}
+        p.dashed {border-style: dashed;}
+        p.solid {border-style: solid;}
+        p.double {border-style: double;}
+        p.groove {border-style: groove;}
+        p.ridge {border-style: ridge;}
+        p.inset {border-style: inset;}
+        p.outset {border-style: outset;}
+        p.none {border-style: none;}
+        p.hidden {border-style: hidden;}
+        p.mix {border-style: dotted dashed solid double;}
+    </style>
+</head>
+<body>
+    <p>Especifíca uma imagem para ser usada de borda em volta do elemento</p>
+    <p id="borderimage">Imagem em volta repetida</p>
+    <p id="borderimage2">Imagem em volta esticada</p>
+    <p>Imagem original:</p>
+    <img src="border.png" alt="border">
+    <h1>Teste de Borda</h1>
+    <p>imagem original</p>
+    <img src="Borda.png" alt="border">
+    <h2>teste de borda 2</h2>
+    <p>This property specifies what kind of border to display:</p>
+
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">An inset border.</p>
+    <p class="outset">An outset border.</p>
+    <p class="none">No border.</p>
+    <p class="hidden">A hidden border.</p>
+    <p class="mix">A mixed border.</p>
+</body>
+</html>

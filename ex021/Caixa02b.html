@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        p.footer{
+            margin: 0;
+        }
+        header{
+            background-color: rgb(71, 71, 189);
+            padding: 10px;
+            border-bottom: 8px solid rgb(33, 33, 117);
+        }
+        main{
+            padding: 10px;
+        }
+        footer{
+            background-color: rgb(10, 10, 10);
+            color: white;
+            padding: 10px;
+        }
+        aside{
+            border: 2px solid rgb(44, 44, 44);
+            padding: 2px;
+        }
+        nav > a{
+            margin-right: 10px;
+        }
+        h1, h2, h3{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        hr{
+            color: rgb(255, 255, 255);
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a.email{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="maintitles">Site header here</h1>
+        <p>Written by pato</p>
+        <p>Additional information...</p>
+        <nav>
+            <a href="/html/">HTML</a>
+            <a href="/css/">CSS</a>
+            <a href="/js/">JavaScript</a>
+            <a href="/python/">Python</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Conteúdo principal</h1>
+        <article>
+            <h2>Subtítulo</h2>
+            <p>O clima do Brasil está uma bosta devido as mudanças cimáticas</p>
+            <aside>
+                As mudanças climáticas são alterações, a longo prazo, nas características do clima e da temperatura do planeta. A partir de 1850, com a Revolução Industrial, as atividades produtivas passaram a ser movidas por combustíveis fósseis, como o petróleo, o carvão e o gás natural.
+            </aside>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse consectetur natus distinctio praesentium quaerat soluta quae in atque vel mollitia dignissimos nostrum animi blanditiis minus sed obcaecati, ex nemo quisquam dolorum aliquid sequi suscipit vero. Hic deserunt odit aperiam quia saepe animi error. Quam quibusdam dignissimos nemo fugit aspernatur architecto accusamus quis, magnam aut tempora culpa necessitatibus adipisci explicabo deserunt, aperiam ab et facilis, possimus labore. Molestias excepturi omnis labore, ipsa nam consectetur cumque illo magni maiores. Voluptate beatae praesentium esse sequi nostrum expedita blanditiis fugit alias ea doloremque dolor atque iure, eius reprehenderit in culpa cupiditate similique delectus! Doloremque.</p>
+        </article>
+        <article>
+            <h2>Subtítulo 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At libero aperiam dignissimos placeat aut, similique consequuntur, necessitatibus id inventore et sed dolorum eos illo facere officiis odio, ipsam ducimus vel?</p>
+            <h3>Subtítulo 3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum eveniet distinctio eaque totam, obcaecati vel vitae ipsum officia cum accusantium amet deleniti accusamus, voluptatem ex maiores odit sapiente iusto dolore!</p>
+        </article>
+        <article>
+            <h2>Mais título</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis cumque quae facere, id odio labore facilis optio ipsum earum, omnis nobis consequuntur recusandae ullam repellat reprehenderit nihil ad atque iste. Vero minus soluta dignissimos? Iure pariatur molestiae architecto, rerum vitae ipsum deserunt quia suscipit facere consequatur voluptas, animi qui perspiciatis quae soluta modi itaque. Modi maxime blanditiis consectetur, mollitia, quos odit earum, accusamus officiis ut neque quasi. Tempora temporibus enim molestiae architecto optio saepe, asperiores consectetur cum nostrum possimus dignissimos fugit ullam. Soluta, possimus odit, dolorem, qui eum omnis illum iste laboriosam magni amet ad cupiditate ullam alias dignissimos saepe.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ullam, voluptas expedita facilis cumque perspiciatis fugit eum enim et aliquam provident tempora quae voluptatibus! Sit nobis laboriosam eaque fuga repellendus.</p>
+        </article>
+    </main>
+    <footer>
+        <hr>
+        <p class="footer"><small>Author: Jonh <span style="font-style: italic;">(vulgo: pato_web)</span></small></p>
+        <p class="footer"><small>Copyright &copy;Bomboclat.Inc</small></p>
+        <hr>
+        <address>
+            <p style="margin: 16px auto auto auto;"><small><a class="email" href="mailto:jonhpato@gmail.com">jonhpato@gmail.com</a></small></p> <!--O atributo href dentro da tag <a> especifica o destino do link. Quando você usa mailto:, ao clicar no link, o navegador tentará abrir o aplicativo de e-mail padrão (como Outlook, Gmail, etc.) com o campo "Para" já preenchido com o endereço de e-mail especificado-->
+            <!--<a href="mailto:hege@example.com?subject=Olá&body=Escreva sua mensagem aqui">Enviar e-mail</a> Isso abriria o cliente de e-mail com o campo de assunto e corpo do e-mail pré-preenchidos.-->
+            Visit us at:<br>
+            Example.com<br>
+            A house somewhere, Edimburgo dos Sete Mares<br>
+            Tristão da Cunha
+        </address>
+    </footer>
+</body>
+</html>
