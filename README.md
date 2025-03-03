@@ -1,2 +1,48 @@
 # Exercicios
- 
+ Minha pasta de exercícios do curso de HTML5 e CSS3, você pode acessar aqui
+
+ My exercices folder from the HTML5 and CSS3 curse, you may acess it here
+ <h1>Índice da pasta de exercícios</h1> 
+    <hr>
+    <ul>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex001/">https://joaoantoniosca.github.io/Exercicios/ex001/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex001/Index2.html">https://joaoantoniosca.github.io/Exercicios/ex001/Index2.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex002/">https://joaoantoniosca.github.io/Exercicios/ex002/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex002/Bomboclat.html">https://joaoantoniosca.github.io/Exercicios/ex002/Bomboclat.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex003/">https://joaoantoniosca.github.io/Exercicios/ex003/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex004/">https://joaoantoniosca.github.io/Exercicios/ex004/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex006/">https://joaoantoniosca.github.io/Exercicios/ex006/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex008/">https://joaoantoniosca.github.io/Exercicios/ex008/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex008b/">https://joaoantoniosca.github.io/Exercicios/ex008b/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex009/">https://joaoantoniosca.github.io/Exercicios/ex009/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex009/Index2.html">https://joaoantoniosca.github.io/Exercicios/ex009/Index2.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex010/">https://joaoantoniosca.github.io/Exercicios/ex010/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex010Desafio/">https://joaoantoniosca.github.io/Exercicios/ex010Desafio/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex011/">https://joaoantoniosca.github.io/Exercicios/ex011/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex012/">https://joaoantoniosca.github.io/Exercicios/ex012/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex012Desafio/">https://joaoantoniosca.github.io/Exercicios/ex012Desafio/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex013/">https://joaoantoniosca.github.io/Exercicios/ex013/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex014/">https://joaoantoniosca.github.io/Exercicios/ex014/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex015/">https://joaoantoniosca.github.io/Exercicios/ex015/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex016/">https://joaoantoniosca.github.io/Exercicios/ex016/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex016/cor02.html">https://joaoantoniosca.github.io/Exercicios/ex016/cor02.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex016/cor03.html">https://joaoantoniosca.github.io/Exercicios/ex016/cor03.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex016/projeto.html">https://joaoantoniosca.github.io/Exercicios/ex016/projeto.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex017/">https://joaoantoniosca.github.io/Exercicios/ex017/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex017/pag002.html">https://joaoantoniosca.github.io/Exercicios/ex017/pag002.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex017/shorthand.html">https://joaoantoniosca.github.io/Exercicios/ex017/shorthand.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex018/">https://joaoantoniosca.github.io/Exercicios/ex018/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex018/pag02.html">https://joaoantoniosca.github.io/Exercicios/ex018/pag02.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex019/seletor01.html">https://joaoantoniosca.github.io/Exercicios/ex019/seletor01.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex020/">https://joaoantoniosca.github.io/Exercicios/ex020/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex020/links.html">https://joaoantoniosca.github.io/Exercicios/ex020/links.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex021/caixa01.html">https://joaoantoniosca.github.io/Exercicios/ex021/caixa01.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex021/caixa02.html">https://joaoantoniosca.github.io/Exercicios/ex021/caixa02.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex021/Caixa02b.html">https://joaoantoniosca.github.io/Exercicios/ex021/Caixa02b.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex021/Caixa03.html">https://joaoantoniosca.github.io/Exercicios/ex021/Caixa03.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex021/CaixaSlaoq.html">https://joaoantoniosca.github.io/Exercicios/ex021/CaixaSlaoq.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex021Desafio/">https://joaoantoniosca.github.io/Exercicios/ex021Desafio/</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex021Desafio/Index2.html">https://joaoantoniosca.github.io/Exercicios/ex021Desafio/Index2.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex021Desafio/responsividade.html">https://joaoantoniosca.github.io/Exercicios/ex021Desafio/responsividade.html</a></li>
+        <li><a href="https://joaoantoniosca.github.io/Exercicios/ex021Desafio/sla.html">https://joaoantoniosca.github.io/Exercicios/ex021Desafio/sla.html</a></li>
+    </ul>
